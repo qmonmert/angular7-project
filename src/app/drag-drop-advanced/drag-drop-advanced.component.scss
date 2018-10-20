@@ -1,0 +1,25 @@
+#dragDropAdvanced {
+  display: flex;
+}
+
+.cdkDropList {
+  margin: 20px;
+  width: 50%;
+  border: 1px solid blue;
+}
+
+.item {
+  width: 98%;
+  height: 100px;
+  margin: 1px 1px 10px 1px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+
+  &-green {
+    border: 1px solid green;
+  }
+  &-red {
+    border: 1px solid red;
+  }
+}
