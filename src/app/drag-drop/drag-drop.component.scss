@@ -1,0 +1,13 @@
+#cdkDropList {
+  margin: 20px;
+}
+
+.item {
+  width: 99%;
+  height: 100px;
+  margin-bottom: 10px;
+  border: 1px solid green;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
